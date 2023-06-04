@@ -7,7 +7,7 @@ const verify = async () => {
 	console.log('Verifying contract...');
 	try {
 		await run('verify:verify', {
-			address: 0x93640acd80e2404b72370f047a502f44d30f3a6c,
+			address: 0x2776b56c5567a020029aa14a6302dd4c166455ca,
 		});
 	} catch (e) {
 		if (e.message.toLowerCase().includes('already verified')) {
